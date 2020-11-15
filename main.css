@@ -53,6 +53,12 @@ h1, h2{
  
 
 }
+#vmc2:hover #vph {
+ 
+  opacity: 1;
+ 
+
+}
 
 
 #vmcimg1{
@@ -62,7 +68,7 @@ h1, h2{
   opacity: 0;
   position: absolute;
   left: 620px;
-  top: 0px;
+  top: -10px;
   z-index: 1;
   transition: 0.5s;
  
@@ -82,4 +88,16 @@ h1, h2{
    transition: 0.5s;
   
    
+}
+
+#vph{
+    color: #3b3a3a;
+    position: absolute;
+    left: 550px;
+    opacity: 0;
+    width: 500px;
+    display: inline;
+  
+
+
 }
